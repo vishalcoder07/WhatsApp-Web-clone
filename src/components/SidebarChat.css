@@ -1,0 +1,37 @@
+.sidebarChat{
+    display: flex;
+    padding: 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarChat:hover{
+    background-color: #ebebeb;
+}
+
+a{
+ text-decoration: none !important;
+ color: black;
+}
+
+.sidebarChat__info > h2{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.sidebarChat__info{
+    margin-left: 15px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .sidebarChat__info > h2{
+        font-size: 15px;
+    }
+
+    .sidebarChat{
+        padding: 5px;
+    }
+}
+
